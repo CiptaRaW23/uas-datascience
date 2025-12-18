@@ -126,21 +126,21 @@ Jelaskan kondisi dan permasalahan data:
 
 #### Visualisasi 1: Distribusi Kelas
 
-![Distribusi Kelas](../images/class_distribution.png)
+![Distribusi Kelas](images/class_distribution.png)
 
 **Insight:**  
 Kelas Balanced (B) hanya 7.84% dari data, sehingga model cenderung bias ke L/R. Diperlukan perhatian khusus pada metrik F1-score macro.
 
 #### Visualisasi 2: Scatter Plot Left Moment vs Right Moment
 
-![Scatter Moment](../images/moment_scatter.png)
+![Scatter Moment](images/moment_scatter.png)
 
 **Insight:**  
 Pemisahan kelas sangat jelas ketika menggunakan fitur momen (weight × distance). Kelas B berada di garis diagonal, L di kiri atas, R di kanan bawah — sesuai hukum fisika.
 
 #### Visualisasi 3: Confusion Matrix (Random Forest)
 
-![Confusion Matrix RF](../images/confusion_matrix_rf.png)
+![Confusion Matrix RF](images/confusion_matrix_rf.png)
 
 **Insight:**  
 Model Random Forest jarang salah memprediksi kelas B, menunjukkan kemampuan baik dalam menangani imbalance.
@@ -224,7 +224,6 @@ Sederhana, cepat, interpretable, cocok sebagai baseline.
 #### 6.1.3 Implementasi (Ringkas)
 
 ```python
-# Contoh kode (opsional, bisa dipindah ke GitHub)
 from sklearn.linear_model import LogisticRegression
 
 model_baseline = LogisticRegression(C=1.0, max_iter=100)
@@ -399,7 +398,7 @@ Sekitar 15–25 detik (tergantung hardware)
 Google Colab (CPU) / Local machine
 
 **Training History Visualization:**
-![MLP Training History](../images/mlp_training_history.png)
+![MLP Training History](images/mlp_training_history.png)
 
 **Contoh visualisasi yang WAJIB:**
 
