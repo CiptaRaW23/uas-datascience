@@ -4,7 +4,7 @@
 
 - **Nama:** Cipta Rangga Wijaya
 - **Repo:** https://github.com/CiptaRaW23/uas-datascience.git
-- **Video:** [GANTI DENGAN LINK VIDEO ANDA SETELAH UPLOAD KE YOUTUBE]
+- **Video:** https://youtu.be/TG_Geq3swlQ
 
 ---
 
