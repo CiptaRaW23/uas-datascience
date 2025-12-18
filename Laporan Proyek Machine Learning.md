@@ -9,7 +9,7 @@ Klasifikasi Keseimbangan Timbangan Menggunakan Machine Learning dan Deep Learnin
 **Mata Kuliah:** Data Sciences
 **Dosen Pengampu:** Gus Nanang Syaifuddiin, S.Kom., M.Kom.
 **Tahun Akademik:** 2025/5
-**Link GitHub Repository:** [URL Repository]
+**Link GitHub Repository:** https://github.com/CiptaRaW23/uas-datascience.git
 **Link Video Pembahasan:** [URL Repository]
 
 ---
